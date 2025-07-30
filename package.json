@@ -1,12 +1,10 @@
+
 {
   "name": "openai-api-backend",
   "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "dev": "vercel dev"
-  },
-  "dependencies": {
-    "@vercel/node": "^1.15.4"
+  "scripts": {},
+  "devDependencies": {
+    "@vercel/node": "canary",
+    "typescript": "^5.0.0"
   }
 }
